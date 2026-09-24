@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NÓRD Arquitetura | Arquitetura & Interiores</title>
+
+  <meta
+    name="description"
+    content="Projeto demonstrativo de um escritório fictício de arquitetura e interiores."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CABEÇALHO -->
+  <header id="header">
+
+    <a href="#inicio" class="logo">
+      NÓRD
+      <span>ARQUITETURA</span>
+    </a>
+
+    <button
+      class="menu-button"
+      onclick="toggleMenu()"
+      aria-label="Abrir menu"
+    >
+      ☰
+    </button>
+
+    <nav id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#studio">O Studio</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Processo</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a href="#contato" class="header-button">
+      Solicitar projeto
+    </a>
+
+  </header>
+
+
+  <!-- CAPA -->
+  <main>
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-content">
+
+        <p class="section-label">
+          Arquitetura • Interiores • Design
+        </p>
+
+        <h1>
+          Espaços que<br>
+          contam <em>histórias.</em>
+        </h1>
+
+        <p class="hero-description">
+          Criamos projetos que unem estética, funcionalidade e identidade
+          para transformar espaços em experiências únicas.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projetos" class="button-primary">
+            Conhecer projetos
+          </a>
+
+          <a href="#contato" class="button-secondary">
+            Solicitar orçamento
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-detail">
+        <span>01</span>
+        <div></div>
+        <p>Arquitetura contemporânea</p>
+      </div>
+
+    </section>
+
+
+    <!-- O STUDIO -->
+
+    <section class="studio" id="studio">
+
+      <div class="studio-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85"
+          alt="Interior contemporâneo"
+        >
+
+      </div>
+
+      <div class="studio-content">
+
+        <p class="section-label dark-label">
+          Sobre o studio
+        </p>
+
+        <h2>
+          Projetamos espaços<br>
+          para serem <em>vividos.</em>
+        </h2>
+
+        <p>
+          A NÓRD nasceu da ideia de que arquitetura vai muito além
+          da estética. Cada ambiente deve representar quem vive,
+          trabalha ou compartilha aquele espaço.
+        </p>
+
+        <p>
+          Nosso trabalho combina linhas contemporâneas, materiais
+          naturais e soluções funcionais para criar projetos
+          atemporais e personalizados.
+        </p>
+
+        <div class="studio-numbers">
+
+          <div>
+            <strong>80+</strong>
+            <span>Projetos</span>
+          </div>
+
+          <div>
+            <strong>06</strong>
+            <span>Anos de experiência</span>
+          </div>
+
+          <div>
+            <strong>12</strong>
+            <span>Cidades</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+
+    <section class="projects" id="projetos">
+
+      <div class="projects-heading">
+
+        <div>
+
+          <p class="section-label dark-label">
+            Projetos selecionados
+          </p>
+
+          <h2>
+            Nosso <em>portfólio.</em>
+          </h2>
+
+        </div>
+
+        <p>
+          Cada projeto nasce de uma história diferente.
+          Conheça alguns espaços desenvolvidos pelo nosso studio.
+        </p>
+
+      </div>
+
+
+      <div class="projects-grid">
+
+        <article class="project project-large">
+
+          <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85"
+            alt="Casa Aurora"
+          >
+
+          <div class="project-overlay">
+
+            <span>Residencial • 2026</span>
+
+            <h3>Casa Aurora</h3>
+
+            <p>
+              Arquitetura residencial
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="project">
+
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85"
+            alt="Apartamento Essenza"
+          >
+
+          <div class="project-overlay">
+
+            <span>Interiores • 2026</span>
+
+            <h3>Essenza</h3>
+
+            <p>
+              Design de interiores
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="project">
+
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"
+            alt="Residência Horizonte"
+          >
+
+          <div class="project-overlay">
+
+            <span>Residencial • 2025</span>
+
+            <h3>Horizonte</h3>
+
+            <p>
+              Arquitetura contemporânea
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="project project-wide">
+
+          <img
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85"
+            alt="Escritório Axis"
+          >
+
+          <div class="project-overlay">
+
+            <span>Comercial • 2025</span>
+
+            <h3>Axis Office</h3>
+
+            <p>
+              Arquitetura corporativa
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- FRASE -->
+
+    <section class="manifesto">
+
+      <p class="section-label">
+        Nossa essência
+      </p>
+
+      <blockquote>
+        “A boa arquitetura não ocupa apenas um espaço.
+        Ela transforma a forma como você vive nele.”
+      </blockquote>
+
+      <span>NÓRD Arquitetura</span>
+
+    </section>
+
+
+    <!-- SERVIÇOS -->
+
+    <section class="services" id="servicos">
+
+      <div class="services-heading">
+
+        <p class="section-label dark-label">
+          O que fazemos
+        </p>
+
+        <h2>
+          Nossos <em>serviços.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="services-grid">
+
+        <article class="service">
+
+          <span>01</span>
+
+          <h3>
+            Arquitetura Residencial
+          </h3>
+
+          <p>
+            Projetos personalizados de casas e apartamentos,
+            desenvolvidos de acordo com a rotina e identidade
+            de cada cliente.
+          </p>
+
+        </article>
+
+
+        <article class="service">
+
+          <span>02</span>
+
+          <h3>
+            Design de Interiores
+          </h3>
+
+          <p>
+            Planejamento completo de ambientes, escolha de
+            materiais, iluminação, mobiliário e decoração.
+          </p>
+
+        </article>
+
+
+        <article class="service">
+
+          <span>03</span>
+
+          <h3>
+            Arquitetura Comercial
+          </h3>
+
+          <p>
+            Espaços comerciais que unem funcionalidade,
+            identidade de marca e experiência para clientes.
+          </p>
+
+        </article>
+
+
+        <article class="service">
+
+          <span>04</span>
+
+          <h3>
+            Reformas
+          </h3>
+
+          <p>
+            Transformação de imóveis existentes através de
+            novas soluções de layout, materiais e iluminação.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROCESSO -->
+
+    <section class="process" id="processo">
+
+      <div class="process-heading">
+
+        <p class="section-label">
+          Como trabalhamos
+        </p>
+
+        <h2>
+          Do primeiro encontro<br>
+          ao espaço <em>pronto.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="process-steps">
+
+        <article>
+
+          <span>01</span>
+
+          <h3>Briefing</h3>
+
+          <p>
+            Conhecemos você, suas necessidades,
+            referências e expectativas para o projeto.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>02</span>
+
+          <h3>Conceito</h3>
+
+          <p>
+            Desenvolvemos a identidade visual,
+            organização e conceito dos ambientes.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>03</span>
+
+          <h3>Projeto</h3>
+
+          <p>
+            Criamos plantas, detalhamentos e
+            representações visuais do espaço.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>04</span>
+
+          <h3>Execução</h3>
+
+          <p>
+            Acompanhamos cada detalhe para que
+            o projeto saia do papel como planejado.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- DEPOIMENTO -->
+
+    <section class="testimonial">
+
+      <div class="testimonial-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85"
+          alt="Projeto de interiores"
+        >
+
+      </div>
+
+      <div class="testimonial-content">
+
+        <p class="section-label dark-label">
+          Experiências
+        </p>
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <blockquote>
+          “A NÓRD conseguiu transformar tudo o que imaginávamos
+          em um projeto ainda melhor. Nossa casa finalmente
+          tem a nossa identidade.”
+        </blockquote>
+
+        <strong>
+          Mariana & Rafael
+        </strong>
+
+        <span>
+          Projeto Casa Aurora
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+
+    <section class="contact" id="contato">
+
+      <div class="contact-intro">
+
+        <p class="section-label">
+          Vamos conversar?
+        </p>
+
+        <h2>
+          Seu próximo espaço<br>
+          começa <em>aqui.</em>
+        </h2>
+
+        <p>
+          Conte um pouco sobre o seu projeto.
+          Nossa equipe entrará em contato para entender
+          suas necessidades.
+        </p>
+
+        <div class="contact-information">
+
+          <div>
+            <span>E-mail</span>
+            <p>contato@nordarquitetura.com.br</p>
+          </div>
+
+          <div>
+            <span>WhatsApp</span>
+            <p>(43) 99999-9999</p>
+          </div>
+
+          <div>
+            <span>Atendimento</span>
+            <p>Segunda a sexta • 09h às 18h</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <form
+        class="contact-form"
+        onsubmit="sendProject(event)"
+      >
+
+        <div class="form-group">
+
+          <label for="name">
+            Nome
+          </label>
+
+          <input
+            type="text"
+            id="name"
+            placeholder="Seu nome"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="email">
+            E-mail
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="seu@email.com"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="phone">
+            Telefone
+          </label>
+
+          <input
+            type="tel"
+            id="phone"
+            placeholder="(00) 00000-0000"
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="project-type">
+            Tipo de projeto
+          </label>
+
+          <select
+            id="project-type"
+            required
+          >
+
+            <option value="">
+              Selecione
+            </option>
+
+            <option>
+              Arquitetura Residencial
+            </option>
+
+            <option>
+              Design de Interiores
+            </option>
+
+            <option>
+              Arquitetura Comercial
+            </option>
+
+            <option>
+              Reforma
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group full">
+
+          <label for="message">
+            Conte sobre seu projeto
+          </label>
+
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Fale um pouco sobre o espaço que deseja transformar..."
+            required
+          ></textarea>
+
+        </div>
+
+
+        <button type="submit">
+          Enviar solicitação
+        </button>
+
+        <p id="form-message"></p>
+
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <!-- RODAPÉ -->
+
+  <footer>
+
+    <div class="footer-brand">
+
+      <div class="footer-logo">
+        NÓRD
+      </div>
+
+      <p>
+        Arquitetura & Interiores
+      </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <a href="#studio">O Studio</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+
+    </div>
+
+
+    <div class="footer-social">
+
+      <p>
+        Instagram
+      </p>
+
+      <p>
+        Pinterest
+      </p>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 NÓRD Arquitetura
+      </p>
+
+      <p>
+        Projeto fictício para demonstração.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- BOTÃO FLUTUANTE -->
+
+  <button
+    class="floating-contact"
+    onclick="goToContact()"
+  >
+    Projeto
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
